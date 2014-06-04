@@ -1,6 +1,6 @@
 #define car number
 cars = 100
-#define pace in car
+#define space in car with float number
 space_in_car = 4.0
 #define drivers 
 drivers = 30
@@ -27,6 +27,12 @@ print "We can transport", carpool_capacity, "people today."
 print "We have", passengers, "to carpool today."
 #show the average passenger per car
 print "We need to put about", average_passengers_per_car, "in each car."
+
+# Traceback (most recent call last):
+# File "ex4.py", line 8, in <module>
+# average_passengers_per_car = car_pool_capacity / passenger
+# NameError: name 'car_pool_capacity' is not defined
+# when we comment the variable car_pool_capacity of course it's not defined
 
 
 
