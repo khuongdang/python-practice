@@ -12,5 +12,15 @@ I'll do a list:
 \t* Fishies
 \t* Catnip\n\t* Grass \non kakaka
 """
-
 print fat_cat
+
+print '''
+hello world !
+\t kkkkk.
+\v fffffff.
+\r oh!
+'''
+
+#while True:
+#    for i in ["/","-","|","\\","|"]:
+#        print "%s\r" % i,
