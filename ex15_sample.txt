@@ -1,0 +1,2 @@
+This is the new content on line 1
+This is the new content on line 2
